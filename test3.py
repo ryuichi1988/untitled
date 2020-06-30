@@ -18,6 +18,7 @@ class Test(App):
 
         except PermissionError:
             print("PermissionError. Please close the file and try again.")
+        file1.close()
 
 
 
@@ -27,3 +28,4 @@ class Test(App):
         return butt
 
 Test().run()
+print("程序结束")
