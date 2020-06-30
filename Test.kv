@@ -1,0 +1,26 @@
+FloatLayout:
+    Button:
+        text:"Hello Kivy!"
+
+        size_hint:.25,.25
+        pos_hint: {'x': 0, 'y': 0}
+
+        on_press:print("this is Button ONE")
+
+
+    Button:
+        text:"hello button2"
+
+        size_hint:.25,.25
+        pos_hint: {'x': .75, 'y': .75}
+        on_press:print("this is Button TWO")
+    Button:
+        text:"3"
+        size_hint:.1,.1
+        pos_hint:{"x":0,"y":.9}
+        on_press:print("active Button 3")
+    Button:
+        text:"Button4"
+        size_hint:.05,.05
+        pos_hint:{"x":.95,"y":0}
+        on_press:print("You called button 4 onpress")
