@@ -1,0 +1,28 @@
+FloatLayout:
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, .5
+        Rectangle:
+            # self here refers to the widget i.e FloatLayout
+            pos: self.pos
+            size: self.size
+    Button:
+        text: 'Hello World!!'
+        size_hint: .25, .25
+        pos_hint: {'center_x':.25, 'center_y': .5}
+    Button:
+        text: 'Hello World2!!'
+        size_hint: .25, .25
+        pos_hint: {'center_x':.75, 'center_y': .5}
+    Button:
+        text: '最好看的还是宋体 最上面的按钮 我要一个长条ヴぁゑてすと　あういえお測定'
+        size_hint: 0.8, 0.05
+        pos_hint: {'center_x':.5, 'center_y': .9}
+    Button:
+        text: '宋体宋体阿拉 这是第二条 长条按钮 特别长☆'
+        size_hint: 0.8, 0.05
+        pos_hint: {'center_x':.5, 'center_y': .83}
+    Button:
+        text: '宋体宋体阿拉 这是第3条 Number Three 长条按钮 特别长☆'
+        size_hint: 0.8, 0.05
+        pos_hint: {'center_x':.5, 'center_y': .76}
